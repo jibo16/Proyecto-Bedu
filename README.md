@@ -1,2 +1,4 @@
 # django_proyect
-Proyecto final de bedu
+Para inicializar este proyecto es necesario instalar en un ambiente virtual, 
+django: pip install django 
+crispy: pip install django-crispy-forms
