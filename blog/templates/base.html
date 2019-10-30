@@ -1,5 +1,5 @@
 {% load static %} <!-- LLama a la carpeta que contiene el archivo css -->
-<!DOCTYPE html5>
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -7,11 +7,12 @@
 	 <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://kit.fontawesome.com/e427f295fc.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
-	<script src="https://kit.fontawesome.com/e427f295fc.js" crossorigin="anonymous"></script>
+
 
 	{% if title %} 
 		<title>Cloze - {{title}}</title>
@@ -62,12 +63,12 @@
 		    </div>
 		    <div class="col-md-4">
 		      <div class="content-section">
-		        <h3>Contenido de Cloze</h3>
-		        <p class='text-muted'> Por favor comparte material de desarrollo util para otros usuarios, tales como:
+		        <h3>Contenido Cloze </h3>
+		        <p class='text-muted'> Al publicar en Cloze pon cualquier informacion que te guste, ya sea relacionada con:
 		          <ul class="list-group">
-		            <li class="list-group-item list-group-item-light">Tutoriales</li>
 		            <li class="list-group-item list-group-item-light">Articulos</li>
-		            <li class="list-group-item list-group-item-light">Páginas de interes</li>
+		            <li class="list-group-item list-group-item-light">Tutoriales</li>
+		            <li class="list-group-item list-group-item-light">Ejemplos</li>
 		            <li class="list-group-item list-group-item-light">Etcetera</li>
 		          </ul>
 		        </p>
